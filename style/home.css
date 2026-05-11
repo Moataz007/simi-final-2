@@ -259,19 +259,98 @@ a.active {
 .container {
   padding: 42px 162px;
   margin: 200px 0 0 0;
+<<<<<<< HEAD
+  @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 390px) {
+    margin: 100px 16px 50px 0;
+    padding: 0;
+    
+  }
 }
 .section-1 {
+  margin-bottom: 150px;
+  width: 1290px;
+  @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 390px) {
+    width: fit-content;
+  }
+=======
+}
+.section-1 {
+>>>>>>> dcd998c40fea5df04737bf649fe2f80d818549a4
   .section1text {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 38px;
     color: var(--color-white);
+<<<<<<< HEAD
+    @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 390px) {
+    font-size: 19px;
+    width: 370px;
+    display: none;
+
+  }
+=======
+>>>>>>> dcd998c40fea5df04737bf649fe2f80d818549a4
   }
   .section2text {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 17px;
     color: var(--gray-60);
+<<<<<<< HEAD
+    @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 390px) {
+    /* font-size: 13px;
+    width: 370px; */
+    /* flex-wrap: wrap; */
+    display: none !important;
+    
+    
+  }
+  } 
+}
+.bg-buttons {
+background-color: var(--black-06);
+border-radius: 15px;
+@media (max-width: 768px) {
+    /* display: none !important; */
+  }
+  @media (max-width: 390px) {
+    display: none !important;
+  }
+
+}
+.back-container-button {
+  border: 1px var(--black-12) solid;
+  border-radius: 8px;
+  padding: 14px 14px;
+  background-color: var(--black-10);
+  color: var(--color-white);
+  padding-right: 16px;
+  margin: 16px 16px;
+}
+
+/* active glitch button */
+.glitch-line-button-a {
+border: solid 2px var(--red-45);
+width: 23px;
+height: 4px;
+border-radius: 100px;
+background-color: var(--red-45);
+margin-right: 3px;
+}
+
+=======
   }
   .bg-buttons {
   background-color: var(--black-06);
@@ -296,6 +375,7 @@ a.active {
   background-color: var(--red-45);
   margin-right: 3px;
 }
+>>>>>>> dcd998c40fea5df04737bf649fe2f80d818549a4
 /* unactive glitch button */
 .glitch-line-button {
   border: solid 2px var(--black-20);
@@ -305,6 +385,60 @@ a.active {
   background-color: var(--black-20);
   margin-right: 3px;
 }
+<<<<<<< HEAD
+.forward-container-button {
+  border: 1px var(--black-12) solid;
+  border-radius: 8px;
+  padding: 14px 14px;
+  background-color: var(--black-10);
+  color: var(--color-white);
+  padding-left: 16px;
+  margin: 16px 16px;
+}
+
+.cards {
+  /* padding: 0 50px; */
+  margin: 80px 0 0 0;
+  /* margin-bottom: 100px; */
+  /* width: calc((100%-20 * 4) / 5); */
+  gap: 30px;
+  box-sizing: border-box;
+  @media (max-width: 768px) {
+    /* display: none !important; */
+  }
+  @media (max-width: 390px) {
+    display: none !important;
+  }
+}
+.card {
+  border: 1px solid var(--black-15);
+  border-radius: 12px;
+  background-color: var(--black-10);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.card-text {
+  font-family: var(--main-font);
+  font-optical-sizing: none;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  font-size: 18px;
+}
+.incards-button {
+  width: 30px;
+  height: 30px;
+  background-color: var(--black-10);
+  color: var(--color-white);
+  border: 1px solid var(--black-12);
+  border-radius: 8px;
+  border-inline-color: var(--black-10);
+}
+=======
   .forward-container-button {
     border: 1px var(--black-12) solid;
     border-radius: 8px;
@@ -315,3 +449,4 @@ a.active {
     margin: 16px 16px;
   }
 }
+>>>>>>> dcd998c40fea5df04737bf649fe2f80d818549a4
